@@ -1,0 +1,57 @@
+<templateSet group="Java">
+  <template name="with" value="public $T$ with$property$($propertyType$ $propertyName$) {&#10;    this.set$property$($propertyName$);&#10;    return this;&#10;}" description="create withX method" toReformat="false" toShortenFQNames="true">
+    <variable name="T" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="propertyType" expression="typeOfVariable(decapitalize(property))" defaultValue="" alwaysStopAt="false" />
+    <variable name="propertyName" expression="decapitalize(property)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="test-get" value="assertThat($instance$.get$property$(), equalTo($propertyName$));$END$" description="assert getter is true" toReformat="false" toShortenFQNames="true">
+    <variable name="instance" expression="" defaultValue="test" alwaysStopAt="true" />
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="propertyName" expression="decapitalize(property)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="canary" value="@Test&#10;public void canary_verifies_test_infrastructure() {&#10;    assertThat(true, equalTo(true)); &#10;}" description="canary test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="junit-data" value="@Test&#10;public void equals_should_be_true_for_same_instance() {&#10;    assertThat($testInstance$, equalTo($testInstance$));&#10;}&#10;&#10;@Test&#10;public void equals_should_be_false_for_null() {&#10;    assertThat($testInstance$, not(equalTo(null)));&#10;}&#10;&#10;@Test&#10;public void equals_should_be_false_for_different_type() {&#10;    assertThat($testInstance$, not(equalTo(&quot;test&quot;)));&#10;}&#10;&#10;@Test @Ignore&#10;public void equals_should_compare_all_properties() {&#10;    &#10;}&#10;&#10;@Test @Ignore&#10;public void hashCode_should_not_match_for_different_properties() {&#10;    &#10;}&#10;" description="basic tests for data types" toReformat="false" toShortenFQNames="true">
+    <variable name="testInstance" expression="" defaultValue="test" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="canary-import" value="import static org.hamcrest.Matchers.equalTo;&#10;import static org.junit.Assert.assertThat;&#10;import org.junit.Test;&#10;" description="imports for canary test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="constructor-test" value="@Test&#10;public void constructor_test() throws IllegalAccessException, java.lang.reflect.InvocationTargetException, InstantiationException {&#10;    java.lang.reflect.Constructor c = $type$.class.getDeclaredConstructors()[0];&#10;    c.setAccessible(true);&#10;    &#10;    $type$ o = ($type$)c.newInstance();&#10;&#10;    org.junit.Assert.assertNotNull(o);&#10;}" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="toString-test" value="@Test&#10;public void toString_should_return_string() {&#10;    assertTrue($testObj$.toString() instanceof String);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="testObj" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="enum-test" value="@Test&#10;public void values_should_return_$elementCount$_elements() {&#10;    assertThat($type$.values().length, equalTo($elementCount$));&#10;}&#10;&#10;@Test&#10;public void valueOf_$enumValue$_should_return_match() {&#10;    assertThat($type$.valueOf(&quot;$enumValue$&quot;), equalTo($type$.$enumValue$));&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="elementCount" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="enumValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
