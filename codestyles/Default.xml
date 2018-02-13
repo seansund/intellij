@@ -16,6 +16,7 @@
         <package name="org.springframework" withSubpackages="true" static="false" />
         <emptyLine />
         <package name="com.fasterxml" withSubpackages="true" static="false" />
+        <package name="com.orange" withSubpackages="true" static="false" />
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
       </value>
