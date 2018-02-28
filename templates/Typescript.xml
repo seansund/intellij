@@ -5,7 +5,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="lamda" value="() =&gt; {$END$}" toReformat="false" toShortenFQNames="true">
+  <template name="lamda" value="() =&gt; {$END$}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
