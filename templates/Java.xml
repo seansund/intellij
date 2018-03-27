@@ -16,7 +16,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="canary" value="@Test&#10;public void canary_verifies_test_infrastructure() {&#10;    assertThat(true, equalTo(true)); &#10;}" description="canary test" toReformat="false" toShortenFQNames="true">
+  <template name="canary" value="@Test&#10;public void canary_verifies_test_infrastructure() {&#10;    assertTrue(true); &#10;}" description="canary test" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
@@ -29,7 +29,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="canary-import" value="import static org.hamcrest.Matchers.equalTo;&#10;import static org.junit.Assert.assertThat;&#10;import org.junit.Test;&#10;" description="imports for canary test" toReformat="false" toShortenFQNames="true">
+  <template name="canary-import" value="import static org.hamcrest.Matchers.equalTo;&#10;import static org.junit.Assert.assertThat;&#10;import static org.junit.Assert.assertTrue;&#10;import org.junit.Test;&#10;" description="imports for canary test" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
