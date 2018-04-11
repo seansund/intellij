@@ -10,4 +10,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="canary-chai" value="import { expect } from 'chai';&#10;&#10;describe('$name$', () =&gt; {&#10;   it('canary verifies test infrastructure', () =&gt; {&#10;      expect(true).to.equal(true);&#10;   });&#10;   $END$&#10;});" description="canary using chai" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
