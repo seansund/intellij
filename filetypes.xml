@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="application" type="PLAIN_TEXT" />
+      <mapping ext="example" type="JavaScript" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
+      <mapping pattern="application" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
     </extensionMap>
