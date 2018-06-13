@@ -2,11 +2,13 @@
   <template name="canary" value="describe('$name$', () =&gt; {&#10;  it('canary should verify test infrastructure', () =&gt; {&#10;    expect(true).toBeTruthy();&#10;  });&#10;  &#10;  $END$&#10;});" description="canary test" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="lamda" value="() =&gt; {$END$}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="lambda" value="() =&gt; {$END$}" description="" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
