@@ -9,14 +9,13 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*spec.ts" />
+    <option name="FILE_MASK" value="*.html" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.html</mask>
     <mask>*.json</mask>
     <mask>*.java</mask>
     <mask>*.ts</mask>
@@ -24,5 +23,6 @@
     <mask>*.js</mask>
     <mask>*ts</mask>
     <mask>*spec.ts</mask>
+    <mask>*.html</mask>
   </component>
 </application>
