@@ -1,3 +1,9 @@
 <templateSet group="JavaScript">
-  <template name="rewire-function" value="    let _transformAttachmentRowsToEmailTextListSpy;&#10;    let unset_transformAttachmentRowsToEmailTextList;&#10;&#10;    beforeEach(() =&gt; {&#10;      _transformAttachmentRowsToEmailTextListSpy = jasmine.createSpy('_transformAttachmentRowsToEmailTextList');&#10;      unset_transformAttachmentRowsToEmailTextList = capacity.__set__('_transformAttachmentRowsToEmailTextList', _transformAttachmentRowsToEmailTextListSpy);&#10;    });&#10;    afterEach(() =&gt; {&#10;      unset_transformAttachmentRowsToEmailTextList();&#10;    });&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true" />
+  <template name="rewire-function" value="    let $function$Spy;&#10;    let unset$function$;&#10;&#10;    beforeEach(() =&gt; {&#10;      $function$tSpy = jasmine.createSpy('$function$');&#10;      unset$function$ = capacity.__set__('$function$', $function$Spy);&#10;    });&#10;    afterEach(() =&gt; {&#10;      unset$function$();&#10;    });&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true">
+    <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
 </templateSet>
