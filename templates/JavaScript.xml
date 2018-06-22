@@ -1,0 +1,3 @@
+<templateSet group="JavaScript">
+  <template name="rewire-function" value="    let _transformAttachmentRowsToEmailTextListSpy;&#10;    let unset_transformAttachmentRowsToEmailTextList;&#10;&#10;    beforeEach(() =&gt; {&#10;      _transformAttachmentRowsToEmailTextListSpy = jasmine.createSpy('_transformAttachmentRowsToEmailTextList');&#10;      unset_transformAttachmentRowsToEmailTextList = capacity.__set__('_transformAttachmentRowsToEmailTextList', _transformAttachmentRowsToEmailTextListSpy);&#10;    });&#10;    afterEach(() =&gt; {&#10;      unset_transformAttachmentRowsToEmailTextList();&#10;    });&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true" />
+</templateSet>
