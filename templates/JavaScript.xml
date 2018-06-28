@@ -1,6 +1,15 @@
 <templateSet group="JavaScript">
-  <template name="rewire-function" value="    let $function$Spy;&#10;    let unset$function$;&#10;&#10;    beforeEach(() =&gt; {&#10;      $function$tSpy = jasmine.createSpy('$function$');&#10;      unset$function$ = capacity.__set__('$function$', $function$Spy);&#10;    });&#10;    afterEach(() =&gt; {&#10;      unset$function$();&#10;    });&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true">
+  <template name="rewire-function" value="    let $function$Spy;&#10;    let unset$function$;&#10;&#10;    beforeEach(() =&gt; {&#10;      $function$tSpy = jasmine.createSpy('$function$');&#10;      unset$function$ = $rewired$.__set__('$function$', $function$Spy);&#10;    });&#10;    afterEach(() =&gt; {&#10;      unset$function$();&#10;    });&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true">
     <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="rewired" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="rewire-array" value="    let $array$Mock;&#10;    let unset$array$;&#10;&#10;    beforeEach(() =&gt; {&#10;      $array$Mock = [];&#10;      unset$array$ = $rewired$.__set__('$array$', $array$Mock);&#10;    });&#10;    afterEach(() =&gt; {&#10;      unset$array$();&#10;    });&#10;" description="rewire array property" toReformat="false" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="rewired" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
