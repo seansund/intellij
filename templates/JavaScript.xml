@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="rewire-function" value="let $function$Spy;&#10;let unset_$function$;&#10;&#10;beforeEach(() =&gt; {&#10;  $function$Spy = jasmine.createSpy('$function$');&#10;  unset_$function$ = $rewired$.__set__('$function$', $function$Spy);&#10;});&#10;&#10;afterEach(() =&gt; {&#10;  unset_$function$();&#10;});&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true">
+  <template name="rewire-function" value="let $function$Spy;&#10;let unset_$function$;&#10;&#10;beforeEach(() =&gt; {&#10;  $function$Spy = jasmine.createSpy('$function$');&#10;  unset$function$ = $rewired$.__set__('$function$', $function$Spy);&#10;});&#10;&#10;afterEach(() =&gt; {&#10;  unset$function$();&#10;});&#10;" description="inserts rewired function jasmine spy" toReformat="false" toShortenFQNames="true">
     <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="rewired" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
