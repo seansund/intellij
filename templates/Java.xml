@@ -54,4 +54,16 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="junit5-equals" value="@Nested&#10;@DisplayName(&quot;Given equals()&quot;)&#10;public class GivenEquals {&#10;    private $testClass$ classUnderTest;&#10;&#10;    @BeforeEach&#10;    public void setup() {&#10;        classUnderTest = new $testClass$($END$);&#10;    }&#10;    &#10;    @Test&#10;    @DisplayName(&quot;When same instance provide then it should return true&quot;)&#10;    public void equals_should_be_true_for_same_instance() {&#10;        Assertions.assertTrue(classUnderTest.equals(classUnderTest));&#10;    }&#10;&#10;    @Test&#10;    @DisplayName(&quot;When null provide then it should return false&quot;)&#10;    public void equals_should_be_false_for_null() {&#10;        Assertions.assertFalse(classUnderTest.equals(null));&#10;    }&#10;&#10;    @Test&#10;    @DisplayName(&quot;When different type provide then it should return false&quot;)&#10;    public void equals_should_be_false_for_different_type() {&#10;        Assertions.assertFalse(classUnderTest.equals(&quot;test&quot;));&#10;    }&#10;&#10;    @Test&#10;    @DisplayName(&quot;When different instance of $testClass$ provided then it should compare all properties&quot;)&#10;    public void equals_should_compare_all_properties() {&#10;        Assertions.assertTrue(classUnderTest.equals(new $testClass$(classUnderTest)));&#10;        Assertions.assertFalse(classUnderTest.equals(new $testClass$(classUnderTest)));&#10;    }&#10;}" description="basic tests for data types" toReformat="false" toShortenFQNames="true">
+    <variable name="testClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="junit5-hashCode" value="@Nested&#10;@DisplayName(&quot;Given hashCode()&quot;)&#10;public class GivenHashCode {&#10;    private $testClass$ classUnderTest;&#10;&#10;    @BeforeEach&#10;    public void setup() {&#10;        classUnderTest = new $testClass$($END$);&#10;    }&#10;&#10;    @Test&#10;    @DisplayName(&quot;When instances have the same properties then it should return the same value&quot;)&#10;    public void same_properties() {&#10;        Assertions.assertEquals(classUnderTest.hashCode(), new $testClass$(classUnderTest).hashCode());&#10;    }&#10;    @Test&#10;    @DisplayName(&quot;When instances have different properties then it should return a different value&quot;)&#10;    public void different_properties() {&#10;        Assertions.assertNotEquals(classUnderTest.hashCode(), new $testClass$(classUnderTest).hashCode());&#10;    }&#10;}" description="basic tests for data types" toReformat="false" toShortenFQNames="true">
+    <variable name="testClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
