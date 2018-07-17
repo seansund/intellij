@@ -12,6 +12,7 @@
         <package name="org.apache" withSubpackages="true" static="false" />
         <package name="org.aspectj" withSubpackages="true" static="false" />
         <package name="org.json" withSubpackages="true" static="false" />
+        <package name="org.junit" withSubpackages="true" static="false" />
         <package name="org.slf4j" withSubpackages="true" static="false" />
         <package name="org.springframework" withSubpackages="true" static="false" />
         <emptyLine />
