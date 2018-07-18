@@ -9,6 +9,7 @@
         <package name="java" withSubpackages="true" static="false" />
         <package name="javax" withSubpackages="true" static="false" />
         <emptyLine />
+        <package name="com.google" withSubpackages="true" static="false" />
         <package name="org.apache" withSubpackages="true" static="false" />
         <package name="org.aspectj" withSubpackages="true" static="false" />
         <package name="org.json" withSubpackages="true" static="false" />
