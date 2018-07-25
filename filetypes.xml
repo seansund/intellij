@@ -8,6 +8,7 @@
       <mapping pattern=".cfignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev2" type="PLAIN_TEXT" />
       <mapping pattern="pre-commit" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
