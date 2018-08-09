@@ -9,9 +9,11 @@
         <package name="java" withSubpackages="true" static="false" />
         <package name="javax" withSubpackages="true" static="false" />
         <emptyLine />
+        <package name="au.com.dius.pact" withSubpackages="true" static="false" />
         <package name="com.google" withSubpackages="true" static="false" />
         <package name="org.apache" withSubpackages="true" static="false" />
         <package name="org.aspectj" withSubpackages="true" static="false" />
+        <package name="org.jetbrains" withSubpackages="true" static="false" />
         <package name="org.json" withSubpackages="true" static="false" />
         <package name="org.junit" withSubpackages="true" static="false" />
         <package name="org.slf4j" withSubpackages="true" static="false" />
