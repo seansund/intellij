@@ -11,6 +11,7 @@
         <emptyLine />
         <package name="au.com.dius.pact" withSubpackages="true" static="false" />
         <package name="com.google" withSubpackages="true" static="false" />
+        <package name="io.swagger" withSubpackages="true" static="false" />
         <package name="org.apache" withSubpackages="true" static="false" />
         <package name="org.aspectj" withSubpackages="true" static="false" />
         <package name="org.hamcrest" withSubpackages="true" static="false" />
