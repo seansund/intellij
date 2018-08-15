@@ -74,4 +74,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="nested-junit5" value="@Nested&#10;@DisplayName(&quot;Given $function$()&quot;)&#10;public class Given$functionClass$ {&#10;    $END$&#10;}" description="creates a nested junit block" toReformat="false" toShortenFQNames="true">
+    <variable name="functionClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="function" expression="camelCase(functionClass)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
