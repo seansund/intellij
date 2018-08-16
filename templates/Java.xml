@@ -81,4 +81,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="with-interface" value="default T with$property$($propertyType$ $propertyName$) {&#10;    this.set$property$($propertyName$);&#10;    return (T) this;&#10;}" description="create withX default method in interface" toReformat="false" toShortenFQNames="true">
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="propertyType" expression="typeOfVariable(&quot;get&quot; + property)" defaultValue="" alwaysStopAt="false" />
+    <variable name="propertyName" expression="decapitalize(property)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
