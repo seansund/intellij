@@ -96,7 +96,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="Then" value="@Test&#10;@DisplayName(&quot;Then $scenario$&quot;)&#10;public void then$scenarioClass$() {&#10;    $END$&#10;}" description="creates a nested junit block" toReformat="false" toShortenFQNames="true">
+  <template name="then" value="@Test&#10;@DisplayName(&quot;Then $scenario$&quot;)&#10;public void then$scenarioClass$() {&#10;    $END$&#10;}" description="creates a nested junit block" toReformat="false" toShortenFQNames="true">
     <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
     <context>
