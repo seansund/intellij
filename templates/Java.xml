@@ -89,7 +89,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="when" value="@Nested&#10;@DisplayName(&quot;When $scenario$&quot;)&#10;public class Given$scenarioClass$ {&#10;    $END$&#10;}" description="creates a nested junit block" toReformat="false" toShortenFQNames="true">
+  <template name="when" value="@Nested&#10;@DisplayName(&quot;When $scenario$&quot;)&#10;public class When$scenarioClass$ {&#10;    $END$&#10;}" description="creates a nested junit block" toReformat="false" toShortenFQNames="true">
     <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
     <context>
