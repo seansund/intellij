@@ -108,4 +108,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="test" value="@org.junit.jupiter.api.DisplayName(&quot;$classUnderTest$&quot;)&#10;public class $classUnderTest$Test {&#10;    private $classUnderTest$ classUnderTest;&#10;&#10;    @org.junit.jupiter.api.BeforeEach&#10;    public void setup() {&#10;        classUnderTest = new $classUnderTest$($END$);&#10;    }&#10;    &#10;}&#10;" description="create a junit5 test class" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="classUnderTest" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
