@@ -74,7 +74,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="given" value="@org.junit.jupiter.api.DisplayName(&quot;Given $function$()&quot;)&#10;@org.junit.jupiter.api.Nested class Given$functionClass$ {&#10;    $END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true">
+  <template name="given" value="@org.junit.jupiter.api.Nested&#10;@org.junit.jupiter.api.DisplayName(&quot;Given $function$()&quot;)&#10;class Given$functionClass$ {&#10;    $END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true">
     <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="functionClass" expression="capitalize(camelCase(function))" defaultValue="" alwaysStopAt="false" />
     <context>
@@ -89,21 +89,21 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="when" value="@org.junit.jupiter.api.DisplayName(&quot;When $scenario$&quot;)&#10;@org.junit.jupiter.api.Nested class When$scenarioClass$ {&#10;    $END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true">
+  <template name="when" value="@org.junit.jupiter.api.Nested&#10;@org.junit.jupiter.api.DisplayName(&quot;When $scenario$&quot;)&#10;class When$scenarioClass$ {&#10;    $END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true">
     <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="then" value="@org.junit.jupiter.api.DisplayName(&quot;Then $scenario$&quot;)&#10;@org.junit.jupiter.api.Test void then$scenarioClass$() {&#10;    $END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true">
+  <template name="then" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;Then $scenario$&quot;)&#10;void then$scenarioClass$() {&#10;    $END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true">
     <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="setup" value="@org.junit.jupiter.api.BeforeEach&#10;public void setup() {&#10;    $END$&#10;}" description="Create junit5 setup method with @BeforeEach" toReformat="false" toShortenFQNames="true">
+  <template name="setup" value="@org.junit.jupiter.api.BeforeEach&#10;void setup() {&#10;    $END$&#10;}" description="Create junit5 setup method with @BeforeEach" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
