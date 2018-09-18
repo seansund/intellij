@@ -121,4 +121,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="dsl-getter" value="public com.dsg.avs.pact.Getter&lt;$returnType$&gt; get$upperName$() {&#10;    return new com.dsg.avs.pact.Getter&lt;$returnType$&gt;() {&#10;        @Override&#10;        public String getName() {&#10;            return &quot;$fieldName$&quot;;&#10;        }&#10;&#10;        @Override&#10;        public $returnType$ value() {&#10;            return replyMessage.get$upperName$();&#10;        }&#10;    };&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="upperName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldName" expression="decapitalize(upperName)" defaultValue="" alwaysStopAt="false" />
+    <variable name="returnType" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
