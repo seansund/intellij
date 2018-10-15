@@ -4,6 +4,7 @@
       <mapping ext="example" type="JavaScript" />
       <mapping pattern=".cfignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.unittest" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
       <mapping pattern="application" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev2" type="PLAIN_TEXT" />
