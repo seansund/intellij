@@ -12,6 +12,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
+      <mapping ext="controller" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
