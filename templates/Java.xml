@@ -78,6 +78,7 @@
     <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="functionClass" expression="capitalize(camelCase(function))" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
@@ -93,6 +94,7 @@
     <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
@@ -100,6 +102,7 @@
     <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>

@@ -1,4 +1,8 @@
 <code_scheme name="Default" version="173">
+  <GroovyCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+  </GroovyCodeStyleSettings>
   <JavaCodeStyleSettings>
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="21" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="21" />
