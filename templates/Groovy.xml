@@ -1,5 +1,5 @@
 <templateSet group="Groovy">
-  <template name="setter" value="public void $field$(String $field$) {&#10;    this.$field$ = $field$;&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="setter" value="public void $field$(String $field$) {&#10;    this.$field$ = $field$;&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
