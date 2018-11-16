@@ -1,0 +1,9 @@
+<templateSet group="AsciiDoc">
+  <template name="ad-source:typescript" value="[source,javascript]&#10;.$FILENAME$.ts&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Javascript source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+</templateSet>
