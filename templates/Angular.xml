@@ -1,0 +1,9 @@
+<templateSet group="Angular">
+  <template name="a-directive-spec" value="@Component({&#10;  selector: 'app-test',&#10;  template: `&#10;    &lt;p $directiveSelector$&gt;Text&lt;/p&gt;&#10;  `&#10;})&#10;class TestComponent {&#10;}&#10;&#10;describe('$directiveName$', () =&gt; {&#10;  let component: TestComponent;&#10;  let fixture: ComponentFixture&lt;TestComponent&gt;;&#10;&#10;  beforeEach(async(() =&gt; {&#10;    TestBed.configureTestingModule({&#10;      declarations: [ TestComponent, $directiveName$ ]&#10;    })&#10;      .compileComponents();&#10;  }));&#10;&#10;  beforeEach(() =&gt; {&#10;    fixture = TestBed.createComponent(TestComponent);&#10;    component = fixture.componentInstance;&#10;    fixture.detectChanges();&#10;  });&#10;&#10;  it('should create', () =&gt; {&#10;    expect(component).toBeTruthy();&#10;  });&#10;&#10;  $END$&#10;});" description="Spec file for Angular directive with dummy component" toReformat="false" toShortenFQNames="true">
+    <variable name="directiveSelector" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="directiveName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
