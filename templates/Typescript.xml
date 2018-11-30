@@ -1,5 +1,5 @@
 <templateSet group="Typescript">
-  <template name="canary" value="describe('$name$', () =&gt; {&#10;  it('canary should verify test infrastructure', () =&gt; {&#10;    expect(true).toBeTruthy();&#10;  });&#10;  &#10;  $END$&#10;});" description="canary test" toReformat="false" toShortenFQNames="true">
+  <template name="canary" value="describe('$name$', () =&gt; {&#10;  it('canary should verify test infrastructure', () =&gt; {&#10;    expect(false).toBeTruthy();&#10;  });&#10;  &#10;  $END$&#10;});" description="canary test" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
