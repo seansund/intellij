@@ -25,6 +25,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Generate...">
+        <Item>
+          <IdeaActionID>Generate</IdeaActionID>
+          <ShortCut>'⌘N' or '⌃⏎'</ShortCut>
+          <Description>Generate...</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Project">
         <Item>
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
