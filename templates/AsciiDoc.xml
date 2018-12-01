@@ -11,4 +11,11 @@
       <option name="AsciiDoc" value="true" />
     </context>
   </template>
+  <template name="ad-doc-header-with-attributes" value="= $TITLE$&#10;$NAME$ &lt;$EMAIL_ADDRESS$&gt;&#10;v1.0, $DATE$&#10;:toc:&#10;:imagesdir: images&#10;:homepage: https://www.ibm.com/cloud/garage" description="Header with attributes" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="My Document's Title" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EMAIL_ADDRESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-mm-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
