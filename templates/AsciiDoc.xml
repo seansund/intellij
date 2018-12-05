@@ -18,4 +18,9 @@
     <variable name="DATE" expression="date(&quot;yyyy-mm-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="ad-question" value="[NOTE,caption=?,icon=question]&#10;====&#10;$END$&#10;====" description="Question block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
 </templateSet>
