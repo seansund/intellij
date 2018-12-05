@@ -73,6 +73,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'ForbiddenValidatorDirective.validate.should return a validation error if value matches forbiddenValue'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'ForbiddenValidatorDirective.validate.should return a validation error if value matches forbiddenValue'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ModelInvalidDirective'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
