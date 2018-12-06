@@ -97,12 +97,28 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'ReactiveFormComponent.firstName.error handling.should display a &quot;forbiddenName&quot; error if value is &quot;bob&quot;'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'ReactiveFormComponent.firstName.error handling.should display a &quot;forbiddenName&quot; error if value is &quot;bob&quot;'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ReactiveFormComponent.firstName.error handling.should display a &quot;minlength&quot; error if value does not meet minimum length'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'ReactiveFormComponent.firstName.error handling.should display a &quot;minlength&quot; error if value does not meet minimum length'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'ReactiveFormComponent.form validation.should display an error if first and last names are the same'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'ReactiveFormComponent.form validation.should display an error if first and last names are the same'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'TemplateFormComponent'">
@@ -174,7 +190,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>2</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
     </option>
