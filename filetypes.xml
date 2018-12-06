@@ -1,14 +1,15 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="example" type="JavaScript" />
-      <mapping pattern=".cfignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.unittest" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
       <mapping pattern="application" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dev2" type="PLAIN_TEXT" />
+      <mapping pattern=".cfignore" type="PLAIN_TEXT" />
       <mapping pattern="pre-commit" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev2" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
