@@ -23,4 +23,16 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
+  <template name="location-json" value="&quot;$id$&quot;: {&#10;    &quot;id&quot;: &quot;$id$&quot;,&#10;    &quot;name&quot;: &quot;$name$&quot;,&#10;    &quot;description&quot;: &quot;$description$&quot;,&#10;    &quot;photoUrl&quot;: &quot;$photoUrl$&quot;,&#10;    &quot;address&quot;: &quot;$address$&quot;,&#10;    &quot;city&quot;: &quot;$city$&quot;,&#10;    &quot;state&quot;: &quot;$state$&quot;&#10;},&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="photoUrl" expression="lowercaseAndDash(name)" defaultValue="" alwaysStopAt="true" />
+    <variable name="address" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="city" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
 </templateSet>
