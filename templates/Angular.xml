@@ -13,4 +13,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="a_test-component" value="import {Component} from '@angular/core';&#10;&#10;@Component({&#10;  selector: 'app-test',&#10;  template: `&#10;  $END$`&#10;})&#10;class TestComponent {&#10;}&#10;" description="Angular spec with test component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
