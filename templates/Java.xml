@@ -16,7 +16,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="canary" value="@Test&#10;public void canary_verifies_test_infrastructure() {&#10;    assertTrue(true); &#10;}" description="canary test" toReformat="false" toShortenFQNames="true">
+  <template name="canary" value="@org.junit.jupiter.api.DisplayName(&quot;canary verifies test infrastructure&quot;)&#10;@org.junit.jupiter.api.Test&#10;void canary_verifies_test_infrastructure() {&#10;    org.junit.jupiter.api.Assertions.assertFalse(true); &#10;}" description="junit5 canary test" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
@@ -27,11 +27,6 @@
     <variable name="testInstance" expression="" defaultValue="test" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="canary-import" value="import static org.hamcrest.Matchers.equalTo;&#10;import static org.junit.Assert.assertThat;&#10;import static org.junit.Assert.assertTrue;&#10;import org.junit.Test;&#10;" description="imports for canary test" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="constructor-test" value="@Test&#10;public void constructor_test() throws IllegalAccessException, java.lang.reflect.InvocationTargetException, InstantiationException {&#10;    java.lang.reflect.Constructor c = $type$.class.getDeclaredConstructors()[0];&#10;    c.setAccessible(true);&#10;    &#10;    $type$ o = ($type$)c.newInstance();&#10;&#10;    org.junit.Assert.assertNotNull(o);&#10;}" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">

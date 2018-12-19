@@ -121,6 +121,22 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'BowlingGameTest$GivenRoll$WhenLastRollOfOneFrameAndFirstRollOfNextFrameTotalsMoreThan10.thenDonTThrowException'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'BowlingGameTest$GivenRoll$WhenLastRollOfOneFrameAndFirstRollOfNextFrameTotalsMoreThan10.thenDonTThrowException'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'BowlingGameTest$GivenRoll'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'BowlingGameTest$GivenRoll'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ForbiddenValidatorDirective.validate.should return a validation error if value matches forbiddenValue'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -310,7 +326,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>118</Count>
+          <Count>119</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
