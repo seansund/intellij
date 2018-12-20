@@ -136,4 +136,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="roman-numeral-test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;Roman numerals of $number$ should be '$numeral$'&quot;)&#10;void romanNumeralsOf$number$ShouldBe$numeral$() {&#10;    assertEquals(&quot;$numeral$&quot;, classUnderTest.toRomanNumerals($number$));&#10;}&#10;" description="junit5 test for roman numerals" toReformat="false" toShortenFQNames="true">
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="numeral" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
