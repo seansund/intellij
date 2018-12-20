@@ -153,6 +153,30 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'FrameIteratorTest$WhenFrameIsNotNull.thenNextAfterNextShouldThrowAnException'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'FrameIteratorTest$WhenFrameIsNotNull.thenNextAfterNextShouldThrowAnException'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'FrameIteratorTest$WhenFrameIsNotNullAndHasNextFrame'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'FrameIteratorTest$WhenFrameIsNotNullAndHasNextFrame'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'FrameIteratorTest'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'FrameIteratorTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'HeaderComponent'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -326,7 +350,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>120</Count>
+          <Count>121</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
