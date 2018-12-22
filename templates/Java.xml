@@ -150,7 +150,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="word-wrap-test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;{$input$, $columns$} should return '$output$'&quot;)&#10;void test$input$$columns$ShouldReturn$output$() {&#10;    assertEquals(&quot;$output$&quot;, classUnderTest.wrap(&quot;$input$&quot;, $columns$));&#10;}&#10;" description="junit5 test for word wrap" toReformat="false" toShortenFQNames="true">
+  <template name="word-wrap-test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;{'$input$', $columns$} =&gt; '$output$'&quot;)&#10;void test$input$$columns$ShouldReturn$output$() {&#10;    assertEquals(&quot;$output$&quot;, classUnderTest.wrap(&quot;$input$&quot;, $columns$));&#10;}&#10;" description="junit5 test for word wrap" toReformat="false" toShortenFQNames="true">
     <variable name="input" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="columns" expression="" defaultValue="1" alwaysStopAt="true" />
     <variable name="output" expression="" defaultValue="" alwaysStopAt="true" />
