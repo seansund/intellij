@@ -143,4 +143,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="fizz-buzz-test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;$number$ should return '$result$'&quot;)&#10;void test$number$ShouldReturn$result$() {&#10;    assertEquals(&quot;$result$&quot;, classUnderTest.fizzBuzz($number$));&#10;}&#10;" description="junit5 test for fizz buzz" toReformat="false" toShortenFQNames="true">
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
