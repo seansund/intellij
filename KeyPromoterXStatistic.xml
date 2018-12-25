@@ -46,7 +46,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>50</Count>
+          <Count>51</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -231,6 +231,14 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'LocationCardComponent'</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'MemberService'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'MemberService'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'MembersComponent.should have an array of members'">
