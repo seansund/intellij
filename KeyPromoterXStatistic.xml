@@ -249,6 +249,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'MembersComponent'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'MembersComponent'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'MembersComponent.should have an array of members'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -399,6 +407,14 @@
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'ForecastDayComponent.CSS test'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'MembersComponent'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'MembersComponent'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
