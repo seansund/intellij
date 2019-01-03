@@ -16,7 +16,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="canary" value="@org.junit.jupiter.api.DisplayName(&quot;canary verifies test infrastructure&quot;)&#10;@org.junit.jupiter.api.Test&#10;void canary_verifies_test_infrastructure() {&#10;    org.junit.jupiter.api.Assertions.assertFalse(true); &#10;}" description="junit5 canary test" toReformat="false" toShortenFQNames="true">
+  <template name="canary" value="@org.junit.jupiter.api.DisplayName(&quot;canary verifies test infrastructure&quot;)&#10;@org.junit.jupiter.api.Test&#10;void canary_verifies_test_infrastructure() {&#10;    org.junit.jupiter.api.Assertions.assertFalse(true); &#10;}" description="junit5 canary test" toReformat="false" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
@@ -155,6 +155,22 @@
     <variable name="columns" expression="" defaultValue="1" alwaysStopAt="true" />
     <variable name="output" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="it" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;It $scenario$&quot;)&#10;void it$scenarioClass$() {&#10;    $END$&#10;}" description="creates a junit5 test block" toReformat="false" toShortenFQNames="true">
+    <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="scenarioClass" expression="capitalize(camelCase(scenario))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="palindrome-test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;`$input$` should return $expectedResult$&quot;)&#10;void test$input$ShouldReturn$expectedResult$() {&#10;    org.junit.jupiter.api.Assertions.assertEquals($expectedResult$, palindrome.isPalindrome(&quot;$input$&quot;));$END$&#10;}" description="creates a nested junit5 block" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="input" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="expectedResult" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
