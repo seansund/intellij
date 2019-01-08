@@ -94,7 +94,7 @@
           <IdeaActionID>MoveTabRight</IdeaActionID>
           <ShortCut>'⌃⌥⌘→'</ShortCut>
           <Description>Move Right</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
