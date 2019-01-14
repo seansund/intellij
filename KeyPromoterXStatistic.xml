@@ -118,7 +118,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>82</Count>
+          <Count>83</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
@@ -382,6 +382,14 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'PathListTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'PathTest$GivenContainsAllPoints'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'PathTest$GivenContainsAllPoints'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
