@@ -377,6 +377,14 @@
           <Count>19</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'PathListTest'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'PathListTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ReactiveFormComponent'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
