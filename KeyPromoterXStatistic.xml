@@ -126,7 +126,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>85</Count>
+          <Count>87</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
@@ -255,6 +255,22 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'HeaderComponent.location link'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName.thenShouldReturnName'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName.thenShouldReturnName'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'LandingPageComponent'">
