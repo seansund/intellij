@@ -126,7 +126,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>105</Count>
+          <Count>106</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
@@ -273,6 +273,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithHelloNameSomeone.thenShouldReturnNameAsSomeone'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithHelloNameSomeone.thenShouldReturnNameAsSomeone'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -286,7 +294,15 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName.thenShouldReturnName'</Description>
-          <Count>7</Count>
+          <Count>8</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'HelloWorldControllerTest$GivenGetHello'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'HelloWorldControllerTest$GivenGetHello'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'HelloWorldControllerTest$GivenPostHello'">
