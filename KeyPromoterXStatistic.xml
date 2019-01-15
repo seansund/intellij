@@ -126,7 +126,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>92</Count>
+          <Count>93</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
@@ -271,6 +271,14 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'HelloWorldControllerTest$GivenGetHello$WhenCalledWithName.thenShouldReturnName'</Description>
           <Count>7</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'HelloWorldControllerTest$GivenPostHello'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'HelloWorldControllerTest$GivenPostHello'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'HelloWorldControllerTest'">
