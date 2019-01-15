@@ -321,6 +321,14 @@
           <Count>22</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'HelloWorldServiceTest'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'HelloWorldServiceTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'LandingPageComponent'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -622,7 +630,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>176</Count>
+          <Count>177</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
