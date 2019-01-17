@@ -38,7 +38,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'⌘C'</ShortCut>
           <Description>Copy</Description>
-          <Count>42</Count>
+          <Count>47</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -62,7 +62,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>76</Count>
+          <Count>81</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -118,7 +118,7 @@
           <IdeaActionID>$Paste</IdeaActionID>
           <ShortCut>'⌘V'</ShortCut>
           <Description>Paste</Description>
-          <Count>48</Count>
+          <Count>54</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">
