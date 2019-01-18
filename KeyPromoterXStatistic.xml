@@ -105,6 +105,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Move To Opposite Group">
+        <Item>
+          <IdeaActionID>MoveEditorToOppositeTabGroup</IdeaActionID>
+          <ShortCut>'⌃⌥⌘O'</ShortCut>
+          <Description>Move To Opposite Group</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Move...">
         <Item>
           <IdeaActionID>Move</IdeaActionID>
