@@ -110,7 +110,7 @@
           <IdeaActionID>MoveEditorToOppositeTabGroup</IdeaActionID>
           <ShortCut>'⌃⌥⌘O'</ShortCut>
           <Description>Move To Opposite Group</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move...">
