@@ -102,7 +102,7 @@
           <IdeaActionID>MoveTabRight</IdeaActionID>
           <ShortCut>'⌃⌥⌘→'</ShortCut>
           <Description>Move Right</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move To Opposite Group">
@@ -134,7 +134,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>126</Count>
+          <Count>128</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
