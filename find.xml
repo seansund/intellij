@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../src/main/java/duplicated/A.java [com.ibm.cloud.refactoring.main]'" />
-    <option name="defaultScopeName" value="File '.../src/main/java/duplicated/A.java [com.ibm.cloud.refactoring.main]'" />
-    <option name="SEARCH_SCOPE" value="File '.../src/main/java/duplicated/A.java [com.ibm.cloud.refactoring.main]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
