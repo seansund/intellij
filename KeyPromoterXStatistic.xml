@@ -46,7 +46,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'⌘C'</ShortCut>
           <Description>Copy</Description>
-          <Count>54</Count>
+          <Count>55</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -550,7 +550,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'RomanNumeralTest'</Description>
-          <Count>5</Count>
+          <Count>39</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'RomanNumeralsTest'">
