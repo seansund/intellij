@@ -641,6 +641,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'RomanNumeralTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'RomanNumeralTest'</Description>
+          <Count>32</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'MemberListComponent'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -686,7 +694,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>205</Count>
+          <Count>207</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
@@ -703,6 +711,14 @@
           <ShortCut>'⇧⌘B' or '⌃⇧B' or '⇧⌘Button1 Click'</ShortCut>
           <Description>Type Declaration</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Variable...">
+        <Item>
+          <IdeaActionID>IntroduceVariable</IdeaActionID>
+          <ShortCut>'⌥⌘V'</ShortCut>
+          <Description>Variable...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
