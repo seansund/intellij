@@ -118,7 +118,7 @@
           <IdeaActionID>MoveTabRight</IdeaActionID>
           <ShortCut>'⌃⌥⌘→'</ShortCut>
           <Description>Move Right</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move To Opposite Group">
@@ -686,7 +686,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>201</Count>
+          <Count>204</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
