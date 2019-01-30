@@ -545,6 +545,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'RomanNumeralTest'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'RomanNumeralTest'</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'RomanNumeralsTest'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
