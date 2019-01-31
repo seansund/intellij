@@ -118,7 +118,7 @@
           <IdeaActionID>MoveTabRight</IdeaActionID>
           <ShortCut>'⌃⌥⌘→'</ShortCut>
           <Description>Move Right</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move To Opposite Group">
@@ -663,6 +663,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'MembersComponent'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'RomanNumberConverterTest'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'RomanNumberConverterTest'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'productsms01 [org.springframework.boot:spring-boot-maven-plugin:1.5.15.RELEASE:run]'">
