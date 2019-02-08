@@ -174,4 +174,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="prime-factors-test" value="@org.junit.jupiter.api.Test&#10;@org.junit.jupiter.api.DisplayName(&quot;Prime factors of $number$ should be [$factors$]&quot;)&#10;void primeFactorsOf$number$ShouldBe$formatedFactors$() {&#10;    org.junit.jupiter.api.Assertions.assertEquals(java.util.Arrays.asList($factors$), PrimeFactors.of($number$));&#10;}&#10;" description="junit5 test for prime factors" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="factors" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="formatedFactors" expression="capitalizeAndUnderscore(factors)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
