@@ -46,7 +46,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'⌘C'</ShortCut>
           <Description>Copy</Description>
-          <Count>127</Count>
+          <Count>129</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -166,7 +166,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>248</Count>
+          <Count>249</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
