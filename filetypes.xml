@@ -15,6 +15,7 @@
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
+      <mapping pattern="yargs-support" type="TypeScript" />
       <mapping ext="controller" type="TypeScript" />
     </extensionMap>
   </component>
