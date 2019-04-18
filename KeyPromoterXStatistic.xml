@@ -46,7 +46,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'⌘C'</ShortCut>
           <Description>Copy</Description>
-          <Count>150</Count>
+          <Count>153</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -78,7 +78,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>188</Count>
+          <Count>189</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -150,7 +150,7 @@
           <IdeaActionID>$Paste</IdeaActionID>
           <ShortCut>'⌘V'</ShortCut>
           <Description>Paste</Description>
-          <Count>121</Count>
+          <Count>124</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste without Formatting">
@@ -174,7 +174,7 @@
           <IdeaActionID>UsageView.Remove</IdeaActionID>
           <ShortCut>'⌘X' or '⇧⌦'</ShortCut>
           <Description>Remove</Description>
-          <Count>23</Count>
+          <Count>26</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -734,7 +734,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>290</Count>
+          <Count>292</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
