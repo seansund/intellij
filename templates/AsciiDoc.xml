@@ -15,7 +15,7 @@
     <variable name="TITLE" expression="" defaultValue="My Document's Title" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="EMAIL_ADDRESS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="DATE" expression="date(&quot;yyyy-mm-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
   <template name="ad-footer" value="&#10;include::$END$../../support/includes/NOTICES.adoc[]&#10;" description="Custom include footer" toReformat="false" toShortenFQNames="true">
