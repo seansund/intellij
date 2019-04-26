@@ -86,7 +86,7 @@
           <IdeaActionID>$Delete</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Delete...</Description>
-          <Count>210</Count>
+          <Count>213</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -750,7 +750,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>306</Count>
+          <Count>308</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
