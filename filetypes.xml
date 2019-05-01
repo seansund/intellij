@@ -6,6 +6,7 @@
       <mapping pattern=".env.unittest" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="motd" type="PLAIN_TEXT" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
       <mapping pattern="application" type="PLAIN_TEXT" />
       <mapping pattern=".cfignore" type="PLAIN_TEXT" />
