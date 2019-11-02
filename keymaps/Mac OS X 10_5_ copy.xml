@@ -1,18 +1,11 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
   <action id="CheckinFiles">
-    <keyboard-shortcut first-keystroke="ctrl meta alt k" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl meta alt o" />
   </action>
-  <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
-  </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl meta alt right" />
-  </action>
-  <action id="Scala.ShowImplicits">
-    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
 </keymap>
