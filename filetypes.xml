@@ -1,25 +1,28 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="prepare-commit-msg" type="Bash" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
       <mapping ext="example" type="JavaScript" />
-      <mapping pattern=".env.unittest" type="PLAIN_TEXT" />
+      <mapping ext="mdx" type="Markdown" />
+      <mapping pattern="image-banner" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.unittest" type="PLAIN_TEXT" />
       <mapping pattern="motd" type="PLAIN_TEXT" />
-      <mapping pattern="image-banner" type="PLAIN_TEXT" />
+      <mapping pattern=".cfignore" type="PLAIN_TEXT" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
       <mapping pattern="application" type="PLAIN_TEXT" />
-      <mapping pattern=".cfignore" type="PLAIN_TEXT" />
       <mapping pattern="pre-commit" type="PLAIN_TEXT" />
       <mapping pattern="image-help" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev2" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
-      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
       <mapping pattern="yargs-support" type="TypeScript" />
       <mapping ext="controller" type="TypeScript" />
+      <mapping pattern="prepare-commit-msg" type="Bash" />
     </extensionMap>
   </component>
 </application>
