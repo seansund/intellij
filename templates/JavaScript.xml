@@ -35,4 +35,28 @@
       <option name="JSON" value="true" />
     </context>
   </template>
+  <template name="spec" value="describe('$NAME$', () =&gt; {&#10;  test('canary verifies test infrastructure', () =&gt; {&#10;    expect(true).toEqual(false);&#10;  });&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="given" value="describe('given $GIVEN$', () =&gt; {&#10;  $END$&#10;});&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="GIVEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="when" value="describe('when $PRECONDITION$', () =&gt; {&#10;  $END$&#10;});&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="PRECONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="then" value="test('then $THEN$', async () =&gt; {&#10;  $END$&#10;});&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
